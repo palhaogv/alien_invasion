@@ -49,4 +49,3 @@ if __name__ == 'main':
     ai = AlienInvasion()
     ai.run_game()
 
-AlienInvasion().run_game()
