@@ -19,7 +19,7 @@ class AlienInvasion:
         # Set the background color
         self.bg_color = (self.settings.bg_color)
 
-    
+  adasdasd  
     def run_game(self):
         '''Start the main loop for the game.'''
         while True:
@@ -40,7 +40,7 @@ if __name__ == 'main':
     #Make a game instance, and run the game.
     ai = AlienInvasion()
     ai.run_game()
-
+adasdasd  
 AlienInvasion()
 
 
