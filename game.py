@@ -19,14 +19,14 @@ class AlienInvasion:
         # Set the background color
         self.bg_color = (self.settings.bg_color)
 
-  adasdasd  
+
     def run_game(self):
         '''Start the main loop for the game.'''
         while True:
             # Watch for keyboard and mouse events.
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    sys.exitfdghfgh
+                    sys.exit
             
             # Redraw the screen during each pass trough the loop.
             self.screen.fill(self.bg_color)
@@ -40,7 +40,7 @@ if __name__ == 'main':
     #Make a game instance, and run the game.
     ai = AlienInvasion()
     ai.run_game()
-adasdasd  
+
 AlienInvasion()
 
 
